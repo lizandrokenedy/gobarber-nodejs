@@ -4,7 +4,7 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository';
 
 /**
  * [x] Recebimento das informações
- * [/] Tratativas de erros/excessões
+ * [x] Tratativas de erros/excessões
  * [x] Aceeso ao repositório
  */
 
@@ -15,6 +15,10 @@ interface Request {
 
 /**
  * Dependency Inversion (SOLID)
+ *
+ * Aqui será aplicada a regra de negócio para criar um agendamento
+ * Toda regra de negócio deverá ter apenas uma única responsabilidade,
+ * com um método para executar esta regra
  */
 
 class CreateAppointmentService {
