@@ -20,10 +20,11 @@
   ],
   "rules": {
     "no-use-before-define": "off",
+    "prettier/prettier": "error",
+    "class-methods-use-this": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
-    "prettier/prettier": "error",
     "import/extensions": [
       "error",
       "ignorePackages",
